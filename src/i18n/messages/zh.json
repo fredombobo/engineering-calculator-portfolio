@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "首页",
+    "works": "作品",
+    "about": "关于",
+    "contact": "联系",
+    "aiAssistant": "AI 助手",
+    "language": "EN"
+  },
+  "home": {
+    "greeting": "你好，我是",
+    "name": "站长",
+    "tagline": "用代码构建有温度的工具",
+    "cta": "与 AI 聊聊我的作品",
+    "featuredWorks": "精选作品",
+    "skills": "技术栈",
+    "viewAll": "查看全部作品"
+  },
+  "works": {
+    "title": "作品展示",
+    "subtitle": "每一个项目都是一段探索的旅程",
+    "all": "全部",
+    "viewDetail": "查看详情",
+    "sourceCode": "源码",
+    "liveDemo": "在线演示",
+    "noProjects": "即将更新，敬请期待",
+    "relatedProjects": "其他作品",
+    "searchPlaceholder": "搜索作品..."
+  },
+  "about": {
+    "title": "关于我",
+    "bio": "个人简介",
+    "skills": "技能图谱",
+    "experience": "经历",
+    "contact": "联系方式"
+  },
+  "contact": {
+    "title": "联系我",
+    "email": "邮箱",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "ai": {
+    "title": "AI 作品助手",
+    "welcome": "你好！我是站长的 AI 助手，可以问我关于他的作品和技能的任何问题。",
+    "placeholder": "输入你的问题...",
+    "send": "发送",
+    "clear": "清空对话",
+    "preset1": "最有代表性的项目是什么？",
+    "preset2": "主要使用哪些技术栈？",
+    "preset3": "工程工具箱解决了什么问题？",
+    "fallback": "AI 助手暂时无法连接，请稍后再试或直接浏览作品页面。",
+    "timeout": "回答超时，请简化问题重试。",
+    "offTopic": "抱歉，我只能回答关于站长的作品和项目相关的问题。你可以试试问我关于他的技术栈、项目经验等方面的问题。",
+    "noInfo": "抱歉，我目前没有关于这个问题的信息。你可以试着浏览我的作品页面了解更多。",
+    "loading": "思考中...",
+    "disclaimer": "基于作品知识库生成 · 可能不包含最新信息",
+    "networkError": "网络连接异常，请检查网络后重试"
+  },
+  "footer": {
+    "copyright": "版权所有",
+    "poweredBy": "由 Next.js & DeepSeek AI 驱动"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "页面不存在",
+    "backHome": "返回首页"
+  }
+}

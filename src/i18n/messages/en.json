@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "works": "Works",
+    "about": "About",
+    "contact": "Contact",
+    "aiAssistant": "AI Assistant",
+    "language": "中文"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Site Owner",
+    "tagline": "Building thoughtful tools with code",
+    "cta": "Chat with AI about my work",
+    "featuredWorks": "Featured Works",
+    "skills": "Tech Stack",
+    "viewAll": "View All Works"
+  },
+  "works": {
+    "title": "Works",
+    "subtitle": "Every project is a journey of exploration",
+    "all": "All",
+    "viewDetail": "View Details",
+    "sourceCode": "Source Code",
+    "liveDemo": "Live Demo",
+    "noProjects": "Coming soon...",
+    "relatedProjects": "Other Works",
+    "searchPlaceholder": "Search works..."
+  },
+  "about": {
+    "title": "About",
+    "bio": "Bio",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "ai": {
+    "title": "AI Assistant",
+    "welcome": "Hi! I'm the site owner's AI assistant. Ask me anything about his works and skills.",
+    "placeholder": "Ask me anything...",
+    "send": "Send",
+    "clear": "Clear",
+    "preset1": "What are your most representative projects?",
+    "preset2": "What tech stack do you use?",
+    "preset3": "What problem does the Engineering Toolbox solve?",
+    "fallback": "AI assistant is temporarily unavailable. Please try again later or browse the works directly.",
+    "timeout": "Response timed out. Please simplify your question and try again.",
+    "offTopic": "Sorry, I can only answer questions about the site owner's works and projects. Try asking about his tech stack or project experience.",
+    "noInfo": "Sorry, I don't have information about this topic yet. Try browsing the works page for more details.",
+    "loading": "Thinking...",
+    "disclaimer": "Generated from project knowledge base · May not include latest updates",
+    "networkError": "Network error. Please check your connection and try again."
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "poweredBy": "Powered by Next.js & DeepSeek AI"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Page not found",
+    "backHome": "Back to Home"
+  }
+}

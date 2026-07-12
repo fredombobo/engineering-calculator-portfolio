@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-700 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-400 dark:bg-zinc-600;
+}
+
+/* Selection */
+::selection {
+  @apply bg-indigo-500/20 text-indigo-900 dark:text-indigo-100;
+}
+
+/* Markdown content styles */
+.prose-content h1 { @apply text-3xl font-bold mt-8 mb-4 text-zinc-900 dark:text-white; }
+.prose-content h2 { @apply text-2xl font-bold mt-6 mb-3 text-zinc-900 dark:text-white; }
+.prose-content h3 { @apply text-xl font-semibold mt-5 mb-2 text-zinc-900 dark:text-white; }
+.prose-content p { @apply mb-4 leading-relaxed text-zinc-600 dark:text-zinc-300; }
+.prose-content ul { @apply mb-4 pl-5 space-y-1; }
+.prose-content li { @apply text-zinc-600 dark:text-zinc-300 list-disc; }
+.prose-content strong { @apply font-semibold text-zinc-900 dark:text-white; }
+.prose-content code { @apply px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono text-pink-600 dark:text-pink-400; }
+.prose-content pre { @apply mb-4 p-4 rounded-xl bg-zinc-900 dark:bg-zinc-800 overflow-x-auto; }
+.prose-content pre code { @apply bg-transparent text-zinc-100 dark:text-zinc-100 px-0 py-0; }
+.prose-content hr { @apply my-8 border-zinc-200 dark:border-zinc-800; }
+.prose-content blockquote { @apply border-l-4 border-indigo-500 pl-4 italic text-zinc-500 dark:text-zinc-400 my-4; }
+.prose-content a { @apply text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 underline; }
+.prose-content img { @apply rounded-xl my-4 max-w-full; }
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
